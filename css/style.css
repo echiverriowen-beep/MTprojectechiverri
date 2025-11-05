@@ -1,0 +1,59 @@
+body {
+          background-image: url(../images/municipality.jpg);
+          background-attachment: scroll;
+          background-size: cover;
+          margin: 0;
+          font-family: Arial, sans-serif;
+}         
+.navbar {
+          align-content: space-around;
+          width: 100%;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          justify-content: flex-end;
+          flex-grow: 1;
+          font-size: 1.5rem;
+          opacity: unset;
+          
+}
+.navbar ul li a{
+          display: inline-block;
+          font-size: 16px;
+          padding: 20px;
+          text-decoration: none;
+          color: #007BFF;
+
+}
+.navbar ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          flex-grow: 1;
+          font-size: 1.5rem;
+          flex-direction: row;
+          flex-wrap: nowrap;
+}
+.img {
+          width: 150px;
+          left: auto;
+          border-radius: 50%;
+          object-fit: cover;
+}
+
+h1{
+    color: #007BFF;
+    text-align: center;
+    font-size: 85px;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: pulse 5s ease-in-out infinite;
+
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.5);
+    }
+}

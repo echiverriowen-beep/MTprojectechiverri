@@ -1,0 +1,67 @@
+body {
+          background-image: url(../images/municipality.jpg);
+          background-attachment: scroll;
+          background-size: cover;
+          margin: 0;
+          font-family: Arial, sans-serif;
+
+          
+}         
+.navbar {
+          background-color: (124, 3, 25);
+          width: 100%;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          flex-grow: 1;
+          font-size: 1.5rem;
+          opacity: unset;
+          
+}
+.navbar ul li a{
+          display: block;
+          font-size: 16px;
+          padding: 20px;
+          text-decoration: none;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          gap: 40px;
+          row-gap: 20px;
+          flex-flow: nowrap;
+          justify-items: center;
+          box-sizing: border-box;
+          color: #007BFF;
+}
+.navbar ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          flex-grow: 1;
+          font-size: 1.5rem;
+}
+.img {
+          width: 150px;
+          left: auto;
+          border-radius: 50%;
+          object-fit: cover;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.places img{
+    min-width: 300px;
+    max-width: 600px;
+    width: calc(100% - 100%);
+     height: 200px;
+    padding: 0px;
+    box-shadow: 0 0 10px 5px rgb(5, 3, 3);
+    border-radius: 16px;
+    margin: 40px;
+    align-items: center;
+}
